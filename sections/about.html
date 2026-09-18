@@ -1,10 +1,10 @@
-<section class="tab-section" id="about">
+<!-- <section class="tab-section" id="about">
   <div class="container page-layout">
 
     <div class="section-heading">
       <h2>Who I Am</h2>
       <!-- <h2>About Me</h2> -->
-    </div>
+    <!-- </div>
 
     <div class="about-grid">
 
@@ -40,9 +40,9 @@
 
       <div class="quick-info">
 
-        <div class="info-card">
-          <i class="fa-solid fa-location-dot"></i>
-          <div>
+        <div class="info-card"> -->
+          <!-- <i class="fa-solid fa-location-dot"></i> -->
+          <!-- <div>
             <h4>Location</h4>
             <p>Kigali, Rwanda</p>
           </div>
@@ -56,8 +56,8 @@
           </div>
         </div>
 
-        <div class="info-card">
-          <i class="fa-solid fa-chart-line"></i>
+        <div class="info-card"> -->
+          <!-- <i class="fa-solid fa-chart-line"></i>
           <div>
             <h4>Career Interest</h4>
             <p>Data Science, Machine Learning, Data Analysis</p>
@@ -75,5 +75,187 @@
       </div>
     </div>
 
+  </div>
+</section> -->
+ -->
+
+
+
+
+
+<section class="tab-section" id="about">
+  <div class="container page-layout">
+
+    <div class="section-heading">
+      <span class="section-label">A little about me</span>
+      <h2>Who I Am</h2>
+    </div>
+
+    <div class="about-grid">
+
+      <!-- Main About Content -->
+      <div class="about-text card">
+
+        <div class="about-intro">
+          <h3>Turning curiosity into useful solutions.</h3>
+
+          <p>
+            I'm Richard Usengimana, a Mathematical Sciences graduate with a
+            specialization in Data Science. I enjoy working at the point where
+            mathematics, technology, and real-world problems meet.
+          </p>
+        </div>
+
+        <p>
+          My journey started with Applied Mathematics, where I learned to think
+          carefully about problems, patterns, and relationships. Over time, that
+          interest naturally led me toward data science, machine learning, and
+          research.
+        </p>
+
+        <p>
+          I have worked with health, environmental, financial, and other
+          real-world datasets. What I enjoy most is taking data that initially
+          looks complicated and turning it into something people can understand
+          and use to make better decisions.
+        </p>
+
+        <p>
+          My research interests include public health analytics, spatial
+          analysis, machine learning, customer analytics, and the responsible
+          use of AI. I am especially interested in projects where technical
+          work can contribute to practical improvements in people's lives.
+        </p>
+
+        <!-- Interactive Focus Buttons -->
+        <div class="about-actions">
+          <button class="about-btn active" onclick="showAboutPanel('research', this)">
+            <i class="fa-solid fa-flask"></i>
+            Research
+          </button>
+
+          <button class="about-btn" onclick="showAboutPanel('data', this)">
+            <i class="fa-solid fa-chart-line"></i>
+            Data Science
+          </button>
+
+          <button class="about-btn" onclick="showAboutPanel('impact', this)">
+            <i class="fa-solid fa-earth-africa"></i>
+            Impact
+          </button>
+        </div>
+
+        <!-- Interactive Panels -->
+        <div class="about-panels">
+
+          <div class="about-panel active" id="research">
+            <h4>
+              <i class="fa-solid fa-microscope"></i>
+              Research & Exploration
+            </h4>
+
+            <p>
+              My master's research explored the spatial distribution of child
+              malnutrition in Rwanda by combining DHS data with environmental
+              and socio-demographic indicators. The project strengthened my
+              skills in research design, data integration, spatial statistics,
+              and communicating evidence.
+            </p>
+          </div>
+
+          <div class="about-panel" id="data">
+            <h4>
+              <i class="fa-solid fa-database"></i>
+              Data & Technology
+            </h4>
+
+            <p>
+              I work with Python, R, SQL, machine learning, and visualization
+              tools to explore data and build practical analytical solutions.
+              I am particularly interested in  predictive
+              modelling, data quality, and turning raw data into useful insights.
+            </p>
+          </div>
+
+          <div class="about-panel" id="impact">
+            <h4>
+              <i class="fa-solid fa-lightbulb"></i>
+              Why It Matters
+            </h4>
+
+            <p>
+              I believe data science is most valuable when it helps people make
+              better decisions. Whether the context is healthcare, finance,
+              education, agriculture, or public policy, I want my work to go
+              beyond producing numbers and contribute to meaningful outcomes.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Expandable Personal Note -->
+        <details class="personal-note">
+          <summary>
+            <i class="fa-solid fa-plus"></i>
+            What keeps me motivated?
+          </summary>
+
+          <p>
+            I enjoy learning something difficult, breaking it into smaller
+            pieces, and eventually making it work. I am always looking for
+            opportunities to improve my technical skills, collaborate with
+            others, and work on problems that have a purpose beyond the code
+            itself.
+          </p>
+        </details>
+
+      </div>
+
+      <!-- Quick Information -->
+      <div class="quick-info">
+
+        <div class="info-card">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <h4>Based In</h4>
+            <p>Kigali, Rwanda</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <div>
+            <h4>Education</h4>
+            <p>MSc Mathematical Sciences, Data Science — AIMS Rwanda</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-briefcase"></i>
+          <div>
+            <h4>Currently</h4>
+            <p>Data Scientist Intern at I&M Bank</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-bullseye"></i>
+          <div>
+            <h4>Focus Areas</h4>
+            <p>Data Science, AI, Research & Analytics</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-code"></i>
+          <div>
+            <h4>Favorite Tools</h4>
+            <p>Python, R, SQL, Power BI, GIS & Machine Learning</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
   </div>
 </section>
